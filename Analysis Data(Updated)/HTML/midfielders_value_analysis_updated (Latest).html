@@ -1,0 +1,130 @@
+
+    <html>
+    <head>
+        <style>
+            body { font-family: 'Segoe UI', Arial, sans-serif; margin: 50px; background-color: white; }
+            .container { max-width: 900px; margin: auto; }
+            h1 { color: #1a5cff; text-align: center; border-bottom: 2px solid #1a5cff; padding-bottom: 10px; }
+            table { width: 100%; border-collapse: collapse; margin: 30px 0; }
+            th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
+            th { background-color: #f8f9fa; color: #1a5cff; }
+            .chart-box { text-align: center; margin-top: 40px; }
+            img { width: 100%; border: 1px solid #eee; border-radius: 8px; }
+            .footer { margin-top: 50px; text-align: center; font-size: 11px; color: #777; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Midfielders Efficiency Report: PL 25/26</h1>
+            <p>This report identifies players performing significantly above or below their market value baseline. 
+               Data includes <b>AFCON minute adjustments</b> and <b>defensive volume multipliers</b>.</p>
+            
+            <h3>Top 10 Value Bargains</h3>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Player</th>
+      <th>Nation</th>
+      <th>Squad</th>
+      <th>Weekly Wages</th>
+      <th>Final_Score</th>
+      <th>Value_Gap</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Antoine Semenyo</td>
+      <td>GHA</td>
+      <td>Manchester City</td>
+      <td>75000.0</td>
+      <td>978.800</td>
+      <td>666.812997</td>
+    </tr>
+    <tr>
+      <td>Mateus Fernandes</td>
+      <td>POR</td>
+      <td>West Ham United</td>
+      <td>60000.0</td>
+      <td>818.136</td>
+      <td>517.065286</td>
+    </tr>
+    <tr>
+      <td>Elliot Anderson</td>
+      <td>ENG</td>
+      <td>Nottingham Forest</td>
+      <td>40000.0</td>
+      <td>794.904</td>
+      <td>508.388338</td>
+    </tr>
+    <tr>
+      <td>James Garner</td>
+      <td>ENG</td>
+      <td>Everton</td>
+      <td>30000.0</td>
+      <td>782.760</td>
+      <td>503.521864</td>
+    </tr>
+    <tr>
+      <td>Harry Wilson</td>
+      <td>WAL</td>
+      <td>Fulham</td>
+      <td>55000.0</td>
+      <td>777.400</td>
+      <td>479.968049</td>
+    </tr>
+    <tr>
+      <td>Bruno Guimarães</td>
+      <td>BRA</td>
+      <td>Newcastle United</td>
+      <td>160000.0</td>
+      <td>836.304</td>
+      <td>462.458028</td>
+    </tr>
+    <tr>
+      <td>Morgan Rogers</td>
+      <td>ENG</td>
+      <td>Aston Villa</td>
+      <td>150000.0</td>
+      <td>809.760</td>
+      <td>443.191554</td>
+    </tr>
+    <tr>
+      <td>Jarrod Bowen</td>
+      <td>ENG</td>
+      <td>West Ham United</td>
+      <td>150000.0</td>
+      <td>772.200</td>
+      <td>405.631554</td>
+    </tr>
+    <tr>
+      <td>Enzo Le Fée</td>
+      <td>FRA</td>
+      <td>Sunderland</td>
+      <td>75000.0</td>
+      <td>690.800</td>
+      <td>378.812997</td>
+    </tr>
+    <tr>
+      <td>Ryan Gravenberch</td>
+      <td>NED</td>
+      <td>Liverpool</td>
+      <td>150000.0</td>
+      <td>744.660</td>
+      <td>378.091554</td>
+    </tr>
+  </tbody>
+</table>
+            
+            
+            
+            <div class="chart-box">
+                <h3>Wage vs. Performance Regression</h3>
+                <img src="midfielders_plot_updated.png">
+            </div>
+            
+            
+            </div>
+        </div>
+    </body>
+    </html>
+    

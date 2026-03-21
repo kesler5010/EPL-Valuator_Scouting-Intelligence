@@ -1,0 +1,130 @@
+
+    <html>
+    <head>
+        <style>
+            body { font-family: 'Segoe UI', Arial, sans-serif; margin: 50px; background-color: white; }
+            .container { max-width: 900px; margin: auto; }
+            h1 { color: #1a5cff; text-align: center; border-bottom: 2px solid #1a5cff; padding-bottom: 10px; }
+            table { width: 100%; border-collapse: collapse; margin: 30px 0; }
+            th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
+            th { background-color: #f8f9fa; color: #1a5cff; }
+            .chart-box { text-align: center; margin-top: 40px; }
+            img { width: 100%; border: 1px solid #eee; border-radius: 8px; }
+            .footer { margin-top: 50px; text-align: center; font-size: 11px; color: #777; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Defenders Efficiency Report: PL 25/26</h1>
+            <p>This report identifies players performing significantly above or below their market value baseline. 
+               Data includes <b>AFCON minute adjustments</b> and <b>defensive volume multipliers</b>.</p>
+            
+            <h3>Top 10 Value Bargains</h3>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Player</th>
+      <th>Nation</th>
+      <th>Squad</th>
+      <th>Weekly Wages</th>
+      <th>Final_Score</th>
+      <th>Value_Gap</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nico O'Reilly</td>
+      <td>ENG</td>
+      <td>Manchester City</td>
+      <td>30000.0</td>
+      <td>526.080</td>
+      <td>385.131571</td>
+    </tr>
+    <tr>
+      <td>Jurriën Timber</td>
+      <td>NED</td>
+      <td>Arsenal</td>
+      <td>90000.0</td>
+      <td>482.000</td>
+      <td>332.544307</td>
+    </tr>
+    <tr>
+      <td>Matheus Nunes</td>
+      <td>POR</td>
+      <td>Manchester City</td>
+      <td>130000.0</td>
+      <td>407.800</td>
+      <td>252.672797</td>
+    </tr>
+    <tr>
+      <td>Marc Guéhi</td>
+      <td>ENG</td>
+      <td>Manchester City</td>
+      <td>50000.0</td>
+      <td>383.900</td>
+      <td>240.115816</td>
+    </tr>
+    <tr>
+      <td>Gabriel Magalhães</td>
+      <td>BRA</td>
+      <td>Arsenal</td>
+      <td>150000.0</td>
+      <td>394.000</td>
+      <td>236.037042</td>
+    </tr>
+    <tr>
+      <td>Reece James</td>
+      <td>ENG</td>
+      <td>Chelsea</td>
+      <td>250000.0</td>
+      <td>374.000</td>
+      <td>201.858267</td>
+    </tr>
+    <tr>
+      <td>Nordi Mukiele</td>
+      <td>FRA</td>
+      <td>Sunderland</td>
+      <td>100000.0</td>
+      <td>347.600</td>
+      <td>196.726429</td>
+    </tr>
+    <tr>
+      <td>Jan Paul Van Hecke</td>
+      <td>NED</td>
+      <td>Brighton</td>
+      <td>50000.0</td>
+      <td>335.000</td>
+      <td>191.215816</td>
+    </tr>
+    <tr>
+      <td>Malo Gusto</td>
+      <td>FRA</td>
+      <td>Chelsea</td>
+      <td>45000.0</td>
+      <td>332.112</td>
+      <td>189.036755</td>
+    </tr>
+    <tr>
+      <td>Neco Williams</td>
+      <td>WAL</td>
+      <td>Nottingham Forest</td>
+      <td>65000.0</td>
+      <td>329.200</td>
+      <td>183.289000</td>
+    </tr>
+  </tbody>
+</table>
+            
+            
+            
+            <div class="chart-box">
+                <h3>Wage vs. Performance Regression</h3>
+                <img src="defenders_plot_updated.png">
+            </div>
+            
+            
+            </div>
+        </div>
+    </body>
+    </html>
+    

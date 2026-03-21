@@ -1,0 +1,129 @@
+
+    <html>
+    <head>
+        <style>
+            body { font-family: 'Segoe UI', Arial, sans-serif; margin: 50px; background-color: white; }
+            .container { max-width: 900px; margin: auto; }
+            h1 { color: #1a5cff; text-align: center; border-bottom: 2px solid #1a5cff; padding-bottom: 10px; }
+            table { width: 100%; border-collapse: collapse; margin: 30px 0; }
+            th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
+            th { background-color: #f8f9fa; color: #1a5cff; }
+            .chart-box { text-align: center; margin-top: 40px; }
+            img { width: 100%; border: 1px solid #eee; border-radius: 8px; }
+            .footer { margin-top: 50px; text-align: center; font-size: 11px; color: #777; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Goalkeepers Efficiency Report: PL 25/26</h1>
+            <p>This report identifies players performing significantly above or below their market value baseline. 
+               Data includes <b>AFCON minute adjustments</b> and <b>defensive volume multipliers</b>.</p>
+            
+            <h3>Top 10 Value Bargains</h3>
+            <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Player</th>
+      <th>Nation</th>
+      <th>Squad</th>
+      <th>Weekly Wages</th>
+      <th>Final_Score</th>
+      <th>Value_Gap</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Robin Roefs</td>
+      <td>NED</td>
+      <td>Sunderland</td>
+      <td>30000.0</td>
+      <td>830.208</td>
+      <td>461.730178</td>
+    </tr>
+    <tr>
+      <td>David Raya</td>
+      <td>ESP</td>
+      <td>Arsenal</td>
+      <td>100000.0</td>
+      <td>855.220</td>
+      <td>378.727290</td>
+    </tr>
+    <tr>
+      <td>Dean Henderson</td>
+      <td>ENG</td>
+      <td>Crystal Palace</td>
+      <td>100000.0</td>
+      <td>789.200</td>
+      <td>312.707290</td>
+    </tr>
+    <tr>
+      <td>Bart Verbruggen</td>
+      <td>NED</td>
+      <td>Brighton</td>
+      <td>35000.0</td>
+      <td>662.064</td>
+      <td>285.870829</td>
+    </tr>
+    <tr>
+      <td>Caoimhín Kelleher</td>
+      <td>IRL</td>
+      <td>Brentford</td>
+      <td>55000.0</td>
+      <td>652.660</td>
+      <td>245.605432</td>
+    </tr>
+    <tr>
+      <td>Robert Sánchez</td>
+      <td>ESP</td>
+      <td>Chelsea</td>
+      <td>60000.0</td>
+      <td>642.920</td>
+      <td>228.150083</td>
+    </tr>
+    <tr>
+      <td>Đorđe Petrović</td>
+      <td>SRB</td>
+      <td>Bournemouth</td>
+      <td>60000.0</td>
+      <td>616.140</td>
+      <td>201.370083</td>
+    </tr>
+    <tr>
+      <td>Gianluigi Donnarumma</td>
+      <td>ITA</td>
+      <td>Manchester City</td>
+      <td>250000.0</td>
+      <td>800.380</td>
+      <td>92.426815</td>
+    </tr>
+    <tr>
+      <td>Guglielmo Vicario</td>
+      <td>ITA</td>
+      <td>Tottenham Hotspur</td>
+      <td>75000.0</td>
+      <td>504.860</td>
+      <td>66.944036</td>
+    </tr>
+    <tr>
+      <td>Jordan Pickford</td>
+      <td>ENG</td>
+      <td>Everton</td>
+      <td>150000.0</td>
+      <td>615.040</td>
+      <td>61.393798</td>
+    </tr>
+  </tbody>
+</table>
+            
+            <div class="chart-box">
+                <h3>Wage vs. Performance Regression</h3>
+                <img src="goalkeepers_plot_updated.png">
+            </div>
+            
+            <div class="footer">
+                Automated Scouting Intelligence | Prepared for Kesler's Portfolio
+            </div>
+        </div>
+    </body>
+    </html>
+    
