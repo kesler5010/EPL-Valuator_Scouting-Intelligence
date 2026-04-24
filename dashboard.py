@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 import numpy as np
-import unicodedata
 from logic.scout_3 import Goalkeeper, Defender, Midfielder, Forward
 import base64
 

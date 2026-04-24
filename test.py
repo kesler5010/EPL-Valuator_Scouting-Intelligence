@@ -102,8 +102,8 @@ plt.show()
 from logic.scout_3 import Forward, Midfielder, Defender
 
 #Most Valuable players with regard to Value Gap between final score and weekly wages
-fwd_engine = Defender()
-raw_fwd_report = fwd_engine.get_defender_report()
+fwd_engine = Forward()
+raw_fwd_report = fwd_engine.get_forward_report()
 
 
 fwd_value_report = fwd_engine.get_value_report(raw_fwd_report)
@@ -346,7 +346,7 @@ generate_consolidated_report()
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
-from Archive.scout_2 import Goalkeeper, Defender, Midfielder, Forward
+from logic.scout_3 import Goalkeeper, Defender, Midfielder, Forward
 
 # 1. Custom thresholds for outliers in the plots
 thresholds = {
